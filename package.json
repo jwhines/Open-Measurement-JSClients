@@ -40,7 +40,8 @@
     "test-validation-verification-script": "npm run validation-verification-script-tests",
     "validation-verification-script-tests": "npm run jasmine-validation-verification-script",
     "jasmine-validation-verification-script": "jasmine ./bin/Omid-Validation-Verification-Script-Tests.js",
-    "jsdoc": "rimraf jsdoc/ && jsdoc -c jsdoc.json -d jsdoc/"
+    "jsdoc": "rimraf jsdoc/ && jsdoc -c jsdoc.json -d jsdoc/",
+    "postinstall": "npm run prebuild"
   },
   "repository": {
     "type": "git",
