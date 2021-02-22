@@ -2,8 +2,6 @@ bin/
 node_modules/
 jsdoc/
 
-# Generated source file
-src/common/version.js
 
 # Generated prod bootstrapper
 umd-bootstrapper.js
